@@ -1,7 +1,4 @@
-#!/bin/bash
-. /opt/farm/scripts/init
-
-
+#!/bin/sh
 
 bash /opt/farm/scripts/setup/role.sh sf-rssh
 
