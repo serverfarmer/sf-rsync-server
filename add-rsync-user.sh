@@ -31,7 +31,7 @@ fi
 if [ "$2" != "" ]; then
 	server=$2
 
-	if ! [[ $server =~ ^[-.a-z0-9]+([:][0-9]+)?$ ]]; then
+	if ! [[ $server =~ ^[a-z0-9.-]+[.][a-z0-9]+([:][0-9]+)?$ ]]; then
 		echo "error: parameter 2 not conforming host name format"
 		exit 1
 	fi
