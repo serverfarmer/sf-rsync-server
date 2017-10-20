@@ -1,5 +1,5 @@
 #!/bin/sh
 
-/opt/farm/scripts/setup/role.sh sf-rssh
+/opt/farm/scripts/setup/extension.sh sf-rssh
 
 mkdir -p /srv/rsync
